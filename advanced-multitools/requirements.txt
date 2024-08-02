@@ -1,0 +1,9 @@
+requests
+pystyle
+datetime
+selenium
+deep_translator
+colorama
+phonenumbers
+python-whois
+geocoder
