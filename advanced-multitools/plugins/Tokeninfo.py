@@ -147,5 +147,7 @@ Bio : {bio_discord}
 
     Continue()
     Reset()
+    input(f"\nPress ENTER to exit")
 except Exception as e:
     Error(e)
+    input(f"\nPress ENTER to exit...")
