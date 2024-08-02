@@ -52,7 +52,7 @@ def webhookspam():
     clear()
     webhspamtitle()
     print(f"[{Fore.LIGHTGREEN_EX}!{Fore.RESET}] Le webhook a bien envoyé les méssages")
-    input(f"\nPress ENTER to exit")
+    input(f"\nPress ENTER to exit...")
     main()
 
 webhookspam()
