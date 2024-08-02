@@ -67,12 +67,11 @@ def serverlookup():
             main()
     except Exception as e:
         print(f"Error: {e}")
-        input(f"Press ENTER to exit")
+        input(f"Press ENTER to exit...")
         main()
     
-    input(f"""{Fore.LIGHTBLUE_EX}~{Fore.LIGHTYELLOW_EX} Presser ENTREE pour quitter""")
     main()
+    input(f"\nPress ENTER to exit...")
 
 setTitle("Server Lookup")
 serverlookup()
-
