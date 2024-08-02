@@ -126,6 +126,8 @@ def main():
         generate_report(scan_results, output_file if output_file else None)
     else:
         print(Colorate.Horizontal(Colors.red_to_yellow, "Le répertoire spécifié n'existe pas."))
+    input(f"\nPress ENTER to exit...")
+
 
 if __name__ == "__main__":
     main()
