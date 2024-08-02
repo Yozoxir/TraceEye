@@ -41,35 +41,33 @@ def options():
 while True:
     os.system(cls)
     gg = input(colored_ascii_art + "\n\n" + choice)
-    if gg =='1':
+    if gg.isdigit():
+        gg = int(gg)
+    
+
+    if gg == 1:
         subprocess.run(['python', 'plugins\\Serveurlookup.py'])
-
-    if gg =='2':
-        subprocess.run(['python', 'plugins\\massdm.py'])
-        
-    if gg =='3':
+    elif gg == 2:
+        subprocess.run(['python', 'plugins\\massdm.py']) 
+    elif gg == 3:
         subprocess.run(['python', 'plugins\\Tokenraid.py'])
-    
-    if gg =='4':
+    elif gg == 4:
         subprocess.run(['python', 'plugins\\Tokeninfo.py'])
-
-    if gg =='5':
+    elif gg == 5:
         subprocess.run(['python', 'plugins\\Account-disabler.py'])
-    
-    if gg =='6':
+    elif gg == 6:
         subprocess.run(['python', 'plugins\\Anti-grabber.py'])
-
-    if gg =='7':
+    elif gg == 7:
         subprocess.run(['python', 'plugins\\pinger.py'])
-
-    if gg =='8':
+    elif gg == 8:
         subprocess.run(['python', 'plugins\\lookup.py'])
-
-    if gg =='9':
+    elif gg == 9:
         subprocess.run(['python', 'plugins\\Webhook-info.py'])
-
-    if gg =='10':
+    elif gg == 10:
         subprocess.run(['python', 'plugins\\Webhook-spammer.py'])
-
-    if gg =='11':
+    elif gg == 11:
         subprocess.run(['python', 'plugins\\Group-spammer.py'])
+    else:
+        print("Merci de choisir un nombre entre 1 et 11.")
+        input("Appuyez sur Entrée pour continuer...")
+        os.system(cls)
