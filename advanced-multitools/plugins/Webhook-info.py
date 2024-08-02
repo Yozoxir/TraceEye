@@ -62,6 +62,7 @@ if __name__ == "__main__":
     try:
         webhook_url = input(Colorate.Horizontal(Colors.red_to_yellow, "\nWebhook URL -> "))
         info_webhook(webhook_url)
+        input(f"\nPress ENTER to exit...")
 
     except Exception as e:
         Error(e)
