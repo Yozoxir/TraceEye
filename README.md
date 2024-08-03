@@ -1,3 +1,4 @@
+![preview](https://github.com/user-attachments/assets/c98c6e1f-715b-44d6-8c08-65cc04941dd0)
 ⭐ Don't forget to set the repository to "Star" !! ⬆️
 📜・Description:
 👨‍💻 -> Developed in Python.
@@ -10,16 +11,16 @@
 
 ⚙️・Functions:
    [Menu n°1]
-   [1] -> Server lookup                                 [11]-> Group-spammer
-   [2] -> Token massdm                   
-   [3] -> Token raider         
-   [4] -> Token info 
-   [5] -> Account disabler              
-   [6] -> Anti-grabber                          
-   [7] -> Ip lookup           
-   [8] -> Phone lookup            
-   [9] -> Webhook information                 
-   [10] -> Webhook spammer             
+   [1] -> Server lookup                 [11]-> Group-spammer    [21]-> image to ascii art
+   [2] -> Token massdm               [12]-> Roblox id info         [22]-> Rat
+   [3] -> Token raider                   [13]-> Nitro generateur    
+   [4] -> Token info                      [14]-> Token clear dm      [23]-> texte to image
+   [5] -> Account disabler            [15]-> Site scanner           [24]-> Youtube-dowloand
+   [6] -> Anti-grabber                  [16]-> Token grabber       [25]-> exe to py      
+   [7] -> Ip lookup                       [17]-> Obfuscator             [26]-> Group-spammer
+   [8] -> Phone lookup                [18]-> Anti-grabberv2
+   [9] -> Webhook information   [19]-> Compresse .py              
+   [10] -> Webhook spammer     [20]-> Obfuscator V2          
 
 🔒・Requirements:
 Windows:
@@ -38,5 +39,4 @@ Advanced-multitools has been developed solely for educational purposes. This pro
 🔗・Credits:
 - [Discord](https://discord.gg/https://discord.gg/NyewN6SW32)
 - Creator: Yozoxir and dich3
-- Version: 1.0
-![advanced](https://github.com/user-attachments/assets/16ba1aee-1959-4bcd-aad6-12fc2b72030d)
+- Version: 1.5
